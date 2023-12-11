@@ -23,7 +23,7 @@ C:\ballot_NFT_shared-ballotcontract>npx hardhat compile
 
 Deploy token contract
 ```
-C:\ballot_NFT_shared-ballotcontract>npx ts-node .\scripts\deployMyToken.ts
+C:\ballot_NFT_shared-ballotcontract>npx ts-node .\scripts\deployMyNFT.ts
 ```
 
 token contract deployed at 0xC895Edd7C0D122e02f13c84C401AEc00e1d999F8
