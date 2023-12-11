@@ -1,3 +1,70 @@
+# Long guide and short guide
+
+*  Long guide for deploying new NFT and new ballot contract
+*  Short guide only for trying out frontend and API
+
+## Short guide
+
+Short guide is only for trying out frontend and Swagger API, minting NFTs and voting
+
+Clone two repos to these folders:
+
+```
+C:\> git clone https://github.com/BigBangInfinity/ballot_NFT_shared-backend-my-api
+C:\> git clone https://github.com/BigBangInfinity/ballot_NFT_shared-scaffold-eth-2
+```
+
+yarn install both repos
+
+```
+C:\ballot_NFT_shared-backend-my-api> yarn install
+C:\ballot_NFT_shared-scaffold-eth-2> yarn install
+```
+
+
+```
+C:\ballot_NFT_shared-backend-my-api>yarn run start:dev
+```      
+
+Launches Swagger API on 
+http://localhost:3001/route
+
+```
+C:\ballot_NFT_shared-scaffold-eth-2>yarn start
+```
+
+Launches Scaffold ETH on 
+http://localhost:3000
+
+Request NFT tokens on the frontend
+
+![image](https://github.com/BigBangInfinity/ballot_NFT_shared-main/assets/37957341/d91f2fb6-fba9-42a3-b9c5-f2d6c2b143c7)
+
+
+
+delegate vote to yourself or to someone else.
+
+![image](https://github.com/BigBangInfinity/ballot_NFT_shared-main/assets/37957341/670e87db-e29b-46e0-aba1-88af1b135370)
+
+
+
+Vote for proposals (index numbers 0, 1 or 2), 
+put in number of votes,
+
+![image](https://github.com/BigBangInfinity/ballot_NFT_shared-main/assets/37957341/e9af84a4-5a89-45e1-8796-b3726514f6dd)
+
+
+
+and then read results.
+
+
+![image](https://github.com/BigBangInfinity/ballot_NFT_shared-main/assets/37957341/e55e1284-109c-48c0-871c-fe731e962e0f)
+
+
+## Long guide
+
+Long guide for deploying new NFT token contract and new ballot
+
 Clone three repos to these folders:
 
 ```
